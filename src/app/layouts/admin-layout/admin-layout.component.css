@@ -1,0 +1,39 @@
+/* Styles for the error message overlay */
+.error-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensure it appears on top */
+    pointer-events: auto; /* Enable interactions with the overlay */
+  }
+  
+  /* Styles for the error message container */
+  .error-messages {
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: #f8d7da;
+    color: #721c24;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Overlay to prevent interactions with the rest of the UI */
+  .disable-interactions {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999; /* Just below the error message overlay */
+    pointer-events: none; /* Disable all interactions */
+  }
+  

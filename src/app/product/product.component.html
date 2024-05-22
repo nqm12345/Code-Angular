@@ -1,0 +1,51 @@
+<div class="container">
+  <!-- Ô input tìm kiếm -->
+  <div class="row mb-2">
+    <label class="col-2">Filter:</label>
+    <!-- Sử dụng [(ngModel)] để binding giá trị của ô input với thuộc tính filterValue -->
+    <input type="text" class="col-3" [(ngModel)]="filterValue">
+    <div class="col-7"></div>
+    <!-- Button để ẩn/hiện hình ảnh -->
+    <button class="btn btn-primary" (click)="toggleImages()">
+      {{ hideImages ? 'Hiện' : 'Ẩn' }} Hình Ảnh
+    </button>
+  </div>
+  
+  <!-- Bảng hiển thị danh sách sản phẩm -->
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th *ngIf="shouldDisplayImage()">Image</th>
+        <th>Product</th>
+        <th>Code</th>
+        <th>Available</th>
+        <th>Price</th>
+        <th>5 Star Rating</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Sử dụng *ngFor để lặp qua danh sách sản phẩm đã lọc -->
+      <tr *ngFor="let product of filteredProducts">
+        <td *ngIf="shouldDisplayImage()">
+          <img [src]="product.imageUrl" alt="" width="50px" height="50px" />
+        </td>
+        <td>{{ product.productName }}</td>
+        <td>{{ product.productCode }}</td>
+        <td>{{ product.releaseDate }}</td>
+        <td>{{ product.price }}</td>
+        <td>
+          <div class="crop" [style.width.px]="product.starRating*90/5" title="rating">
+          <div style="width: 90px">
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            
+          </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

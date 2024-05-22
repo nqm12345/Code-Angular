@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Men Walking Shoes",
+      "desc": "Hãy thể hiện tốc độ của bạn với giày thể thao Nike Zoom Fly 5 - Trong Suốt Bột Màu/Laser Cam/Đen!",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f655b4fb-35e9-4a63-acf8-c02dfd78cfda/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+      "oldprice": "$1000.00",
+      "newprice": "$800.00",
+      "quantity": 1,
+      "color": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f655b4fb-35e9-4a63-acf8-c02dfd78cfda/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ee18eb38-d735-4ce0-a3ac-6ca94f750027/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b15889fb-3ad4-49e4-aa43-0f6dfcc7bdc9/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9d563551-a673-4b53-b04b-a6e7d38edaa5/zoom-fly-5-road-running-shoes-lkx7Zp.png"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Nike 1",
+      "desc": "Hãy thể hiện tốc độ của bạn với giày thể thao Nike Zoom Fly 5 - Trong Suốt Bột Màu/Laser Cam/Đen!",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ee18eb38-d735-4ce0-a3ac-6ca94f750027/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+      "oldprice": "$1000.00",
+      "newprice": "$800.00",
+      "quantity": 1,
+      "color": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f655b4fb-35e9-4a63-acf8-c02dfd78cfda/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ee18eb38-d735-4ce0-a3ac-6ca94f750027/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b15889fb-3ad4-49e4-aa43-0f6dfcc7bdc9/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9d563551-a673-4b53-b04b-a6e7d38edaa5/zoom-fly-5-road-running-shoes-lkx7Zp.png"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Nike 2",
+      "desc": "Hãy thể hiện tốc độ của bạn với giày thể thao Nike Zoom Fly 5 - Trong Suốt Bột Màu/Laser Cam/Đen!",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9d563551-a673-4b53-b04b-a6e7d38edaa5/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+      "oldprice": "$1000.00",
+      "newprice": "$800.00",
+      "quantity": 1,
+      "color": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f655b4fb-35e9-4a63-acf8-c02dfd78cfda/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ee18eb38-d735-4ce0-a3ac-6ca94f750027/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b15889fb-3ad4-49e4-aa43-0f6dfcc7bdc9/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9d563551-a673-4b53-b04b-a6e7d38edaa5/zoom-fly-5-road-running-shoes-lkx7Zp.png"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Nike 3",
+      "desc": "Hãy thể hiện tốc độ của bạn với giày thể thao Nike Zoom Fly 5 - Trong Suốt Bột Màu/Laser Cam/Đen!",
+      "image": "https://giaysneaker.store/media/catalog/product/cache/47d66d3609f727ab73c995561c27d006/n/i/nike-tiempo-legend-9-club-tf-white-da1193-174-0.png",
+      "oldprice": "$1000.00",
+      "newprice": "$800.00",
+      "quantity": 1,
+      "color": [
+        "https://example.com/color1.jpg",
+        "https://example.com/color2.jpg",
+        "https://example.com/color3.jpg",
+        "https://example.com/color4.jpg"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Nike 4",
+      "desc": "Hãy thể hiện tốc độ của bạn với giày thể thao Nike Zoom Fly 5 - Trong Suốt Bột Màu/Laser Cam/Đen!",
+      "image": "https://giaysneaker.store/media/catalog/product/cache/47d66d3609f727ab73c995561c27d006/n/i/nike-tiempo-legend-9-elite-fg-white-cz8482-146-0.png",
+      "oldprice": "$1000.00",
+      "newprice": "$800.00",
+      "quantity": 1,
+      "color": [
+        "https://example.com/color1.jpg",
+        "https://example.com/color2.jpg",
+        "https://example.com/color3.jpg",
+        "https://example.com/color4.jpg"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Nike 7",
+      "desc": "Hãy thể hiện tốc độ của bạn với giày thể thao Nike Zoom Fly 5 - Trong Suốt Bột Màu/Laser Cam/Đen!",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e86dc655-36b1-406f-92d5-6afc6bd1476f/tiempo-legend-9-club-mg-multi-ground-football-boots-LQpr2X.png",
+      "oldprice": "$1000.00",
+      "newprice": "$800.00",
+      "quantity": 1,
+      "color": [
+        "https://example.com/color1.jpg",
+        "https://example.com/color2.jpg",
+        "https://example.com/color3.jpg",
+        "https://example.com/color4.jpg"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Nike 8",
+      "desc": "Hãy thể hiện tốc độ của bạn với giày thể thao Nike Zoom Fly 5 - Trong Suốt Bột Màu/Laser Cam/Đen!",
+      "image": "https://giaysneaker.store/media/catalog/product/cache/47d66d3609f727ab73c995561c27d006/n/i/nike-tiempo-legend-9-elite-fg-guava-ice-cz8482-800-0.png",
+      "oldprice": "$1000.00",
+      "newprice": "$800.00",
+      "quantity": 1,
+      "color": [
+        "https://example.com/color1.jpg",
+        "https://example.com/color2.jpg",
+        "https://example.com/color3.jpg",
+        "https://example.com/color4.jpg"
+      ]
+    }
+  ]
+}

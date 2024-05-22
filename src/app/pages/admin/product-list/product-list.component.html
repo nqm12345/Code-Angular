@@ -1,0 +1,57 @@
+<div class="search-box">
+  <input 
+    type="text" 
+    placeholder="Tìm kiếm sản phẩm..." 
+    [(ngModel)]="searchTerm" 
+    (input)="filterProducts()"
+  />
+</div>
+
+<div class="container">
+  <button routerLink="/admin/add-product" class="btn btn-success">Thêm sản phẩm</button>
+  <div *ngIf="errorMessages.length > 0" class="error-overlay">
+    <div class="error-messages">
+      <div *ngFor="let errorMessage of errorMessages">{{ errorMessage }}</div>
+    </div>
+  </div>
+  <div *ngIf="successMessage" class="success-message">{{ successMessage }}</div>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Image</th>
+        <th>Desc</th>
+        <th>Price</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        *ngFor="let product of filteredProducts | paginate: {itemsPerPage: 5, currentPage: p}"
+        style="cursor: pointer"
+      >
+        <td>{{ product.title }}</td>
+        <td>
+          <img src="{{ product.image }}" alt="" width="100px" height="100px" />
+        </td>
+        <td>{{ product.desc }}</td>
+        <td>{{ product.newprice }}</td>
+
+        <td>
+          <button [routerLink]="['/admin/product-detail', product.id]" class="btn btn-success">View</button> ||
+          <button class="btn btn-warning">Sửa</button> ||
+          <button
+            class="btn btn-danger"
+            (click)="deleteProduct($event, product.id)"
+          >
+            Xóa
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="pagination-container">
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

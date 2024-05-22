@@ -1,0 +1,39 @@
+<div class="search-box">
+  <input 
+    type="text" 
+    placeholder="Tìm kiếm sản phẩm..." 
+    [(ngModel)]="searchTerm" 
+    (input)="filterProducts()"
+  />
+</div>
+
+<div class="container">
+  <div *ngIf="errorMessages.length > 0" class="error-overlay">
+    <div class="error-messages">
+      <div *ngFor="let errorMessage of errorMessages">{{ errorMessage }}</div>
+    </div>
+  </div>
+
+  <div class="card" *ngFor="let product of filteredProducts | paginate: { itemsPerPage: 6, currentPage: p }" 
+       [routerLink]="['/cards/product', product.id]" style="cursor: pointer">
+    <div class="card__img">
+      <img src="{{ product.image }}" alt="">
+    </div>
+    <div class="card__name">
+      <p>{{ product.title }}</p>
+    </div>
+    <div class="card__precis">
+      <a href="#" class="card__icon"><i class="bx bx-heart"></i></a>
+      <div>
+        <div class="card__preci card__preci-before">$999.00</div>
+        <div class="card__preci card__preci-now">${{ product.newprice }}</div>
+      </div>
+      <a href="#" class="card__icon"><i class="bx bx-cart-alt"></i></a>
+    </div>
+  </div>
+</div>
+
+<div class="pagination-container">
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>
+

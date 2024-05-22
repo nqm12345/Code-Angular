@@ -1,0 +1,68 @@
+.container {
+    margin: 20px auto;
+}
+
+table {
+    box-shadow: 0 0 15px #263238;
+}
+
+/* Styles for the error message overlay */
+.error-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Ensure it appears on top */
+  pointer-events: auto; /* Enable interactions with the overlay */
+}
+
+/* Styles for the error message container */
+.error-messages {
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: #f8d7da;
+  color: #721c24;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the success message */
+.success-message {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid green;
+  border-radius: 5px;
+  background-color: #d4edda;
+  color: #155724;
+  text-align: center;
+}
+
+.search-box {
+  margin-top: 20px;
+}
+
+.search-box input {
+  width: 25%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 1012px;
+}
+
+.pagination-container {
+  text-align: center; /* Căn giữa nội dung */
+  padding: 20px; /* Khoảng cách phía trên và dưới */
+}
+
+.pagination-container pagination-controls {
+  display: inline-block; /* Đảm bảo pagination-controls là inline-block */
+}

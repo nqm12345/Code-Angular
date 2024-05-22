@@ -1,0 +1,32 @@
+<section id="prodetails" class="section-p1">
+  <div *ngFor="let errorMessage of errorMessages; let i = index" class="error-message">
+    {{errorMessage}}
+  </div>
+    <div class="single-pro-image">
+      <img src="{{ product?.image }}" width="100%" id="MainImg" alt="">
+  
+      <div class="small-img-group">
+        <div class="small-img-col" *ngFor="let color of product?.color">
+            <img [src]="color" width="100%" class="small-img" (click)="onSelectColor(color)" alt="">
+          </div>          
+      </div>
+    </div>
+  
+    <div class="single-pro-details">
+      <h6>Home / T-Shirt</h6>
+      <h4>{{product?.title}}</h4>
+      <h2>{{product?.newprice}}</h2>
+      <select>
+        <option>Select Size</option>
+        <option>XL</option>
+        <option>XXL</option>
+        <option>Small</option>
+        <option>Large</option>
+      </select>
+      <input type="number" value="1">
+      <button class="normal">Add To Cart</button>
+      <h4>Product Details</h4>
+      <span>{{product?.desc}}</span>
+    </div>
+  </section>
+  
